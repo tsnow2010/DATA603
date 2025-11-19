@@ -1,3 +1,17 @@
+"""
+Script:        data_cleaning.py
+Authors:       Tyler Snow
+Created:       2025-11-19
+Last Modified: 2025-11-19
+Version:       1.0
+
+Purpose:       Provides data cleaning functionality after data is initially extracted and preprocessed from Enron dataset.
+Usage:         main.ipynb
+
+Inputs:        preproc_df: Spark DataFrame
+Outputs:       /clean_body_emails/{yr}/*.csv
+"""
+
 import os
 import re
 import matplotlib.pyplot as plt

@@ -1,3 +1,17 @@
+"""
+Script:        kwfa.py
+Authors:       Tyler Snow
+Created:       2025-11-19
+Last Modified: 2025-11-19
+Version:       1.0
+
+Purpose:       Finds keywords in emails with high frequency and accelerations.
+Usage:         main.ipynb
+
+Inputs:        spark session, schema, "clean_body_emails", "monthly_trends"
+Outputs:       /monthly_trends/{year}/*.csv 
+"""
+
 import os
 import re
 import matplotlib.pyplot as plt

@@ -1,3 +1,17 @@
+"""
+Script:        sentiment_analysis.py
+Authors:       Tyler Snow
+Created:       2025-11-19
+Last Modified: 2025-11-19
+Version:       1.0
+
+Purpose:       Extracts sentences from emails matching provided keywords and calculates VADER sentiment.
+Usage:         main.ipynb
+
+Inputs:        spark session, schema, sia, 'month_body_emails', 'monthly_trends'
+Outputs:       /{year}_results.csv
+"""
+
 import os
 import re
 import matplotlib.pyplot as plt

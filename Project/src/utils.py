@@ -1,3 +1,17 @@
+"""
+Script:        utils.py
+Authors:       Tyler Snow
+Created:       2025-11-19
+Last Modified: 2025-11-19
+Version:       1.0
+
+Purpose:       Provides functionality to create Spark Sessions when necessary.
+Usage:         main.ipynb
+
+Inputs:        pipeline:str
+Outputs:       spark session
+"""
+
 # PySpark
 from pyspark.sql import SparkSession
 from pyspark.sql.window import Window

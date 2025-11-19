@@ -1,3 +1,17 @@
+"""
+Script:        data_viz.py
+Authors:       Gopinath Mohanasundaram
+Created:       2025-11-19
+Last Modified: 2025-11-19
+Version:       1.0
+
+Purpose:       Provides line and bar graph plotting functionality.
+Usage:         main.ipynb
+
+Inputs:        monthly_trends/{year}/part-*.csv
+Outputs:       plots
+"""
+
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np

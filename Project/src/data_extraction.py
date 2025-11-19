@@ -1,3 +1,17 @@
+"""
+Script:        data_extraction.py
+Authors:       Tyler Snow
+Created:       2025-11-19
+Last Modified: 2025-11-19
+Version:       1.0
+
+Purpose:       Provides data extraction functionality, parsing elements of email metadata from Enron dataset.
+Usage:         main.ipynb
+
+Inputs:        spark session, input_path (Enron dataset)
+Outputs:       preproc_df: Spark DataFrame
+"""
+
 import os
 import re
 import matplotlib.pyplot as plt
