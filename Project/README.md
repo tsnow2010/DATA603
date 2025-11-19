@@ -1,5 +1,5 @@
 # **Predicting Calamity: Finding Keyword Trends in Corporate Email Traffic**
-# DATA 604 Project 
+# DATA 603 Project 
 
 #### By: 
 #### Tyler Snow
