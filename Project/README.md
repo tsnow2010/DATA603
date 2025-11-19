@@ -23,3 +23,9 @@
 ### Contents
 - main.ipynb: Run all after installing necessary libaries and packages, e.g. PySpark, nltk, etc.
 - src: Contains functionality of main.ipynb
+
+#### Steps in main.ipynb
+- I: Data Extraction and Cleaning
+- II: Keyword Frequency Acceleration
+- III: Sentiment Analysis with VADER
+- IV: Data Visualization
